@@ -15,7 +15,6 @@ An AI-based project designed to identify potential tampering in document images 
 - Google Colab
 - TensorFlow / Keras
 - NumPy
-- OpenCV / Pillow (if used in the notebook)
 - Matplotlib (if used for visualizations)
 
 ## Project Workflow
@@ -34,7 +33,6 @@ AI-Document-Forgery-Detection/
 └── AI_Document_Forgery_Detection.ipynb
 ```
 
-The notebook filename above is an example. Replace it with the actual filename in this repository.
 
 ## Trained Model
 The trained Keras model is saved separately as `forgery_detection_model.keras`. It is backed up in Google Drive and is not included in this repository.
@@ -47,15 +45,8 @@ To use the model, download the model file from the project's authorized storage 
 3. Run the preprocessing and training cells if you want to train the model again.
 4. To perform inference only, load the saved model and run the prediction cells without executing the training cells.
 
-## Evaluation
-Add the actual results obtained from your completed experiment:
-- Accuracy: [insert measured value, if applicable]
-- Precision: [insert measured value]
-- Recall: [insert measured value]
-- F1-score: [insert measured value]
-- Dice / IoU: [insert measured values, if applicable]
 
-Do not report metrics that have not been calculated or verified.
+
 
 ## Limitations
 - Predictions depend on the training dataset and image quality.
@@ -66,8 +57,4 @@ Do not report metrics that have not been calculated or verified.
 ## Future Improvements
 - Develop a user-friendly upload interface.
 - Improve performance on varied document types.
-- Add comprehensive testing on unseen documents.
-- Deploy an inference-only demo.
 
-## Disclaimer
-This project is intended for educational and research purposes. Predictions should be reviewed by a qualified person before making decisions about a document's authenticity.
